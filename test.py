@@ -38,7 +38,11 @@
 # print(f"多行文本:\n{multiline}")
 
 
-try:
-    num = int(input("请输入数字: "))
-except ValueError as e:
-    print(f"发生错误: {e}")  # 显示具体的错误信息
+# try:
+#     num = int(input("请输入数字: "))
+# except ValueError as e:
+#     print(f"发生错误: {e}")  # 显示具体的错误信息
+
+for i in range (1,2):
+    print("i =", i)
+    
