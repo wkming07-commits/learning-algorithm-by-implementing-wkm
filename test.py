@@ -25,14 +25,20 @@
 
 
 # 实验不同类型的字符串
-name = "张三"
-path = r"D:\nus_ai_projects"
-binary = b"data"
-multiline = """第一行
-第二行
-第三行"""
+# name = "张三"
+# path = r"D:\nus_ai_projects"
+# binary = b"data"
+# multiline = """第一行
+# 第二行
+# 第三行"""
 
-print(f"姓名: {name}")
-print(f"路径: {path}") 
-print(f"二进制: {binary}")
-print(f"多行文本:\n{multiline}")
+# print(f"姓名: {name}")
+# print(f"路径: {path}") 
+# print(f"二进制: {binary}")
+# print(f"多行文本:\n{multiline}")
+
+
+try:
+    num = int(input("请输入数字: "))
+except ValueError as e:
+    print(f"发生错误: {e}")  # 显示具体的错误信息
